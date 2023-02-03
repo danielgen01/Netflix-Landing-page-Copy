@@ -4,6 +4,7 @@
     align-items: center;
     gap: 2%;
     padding-top: 1%;
+    margin-bottom: 2%;
 }
 
 .new-batch{
@@ -18,13 +19,13 @@
 }
 
 .banner-offer-text{
-    font-size: 1.5rem;
-
+    font-size: 1.2rem;
+    
 }
 
 .pricing{
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .weitere-infos-button{
@@ -35,7 +36,7 @@
 
 .weitere-infos-button a{
     color: #0071eb;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 700;
     text-decoration: none;
 }
