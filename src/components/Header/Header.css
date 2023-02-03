@@ -1,0 +1,50 @@
+.Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    padding-top: 1%;
+}
+
+.new-batch{
+    background-color: #e50914;
+    color: #ffffff;
+    border-radius: 1.2rem;
+    font-size: 0.9rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.banner-offer-text{
+    font-size: 1.5rem;
+
+}
+
+.pricing{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.weitere-infos-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weitere-infos-button a{
+    color: #0071eb;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#chevron{
+    color: #0071eb;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
