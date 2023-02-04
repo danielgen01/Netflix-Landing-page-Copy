@@ -20,7 +20,28 @@ const Main = () => {
           </button>
         </div>
         </div>
+      <div className='centered-content'>
+        <h1 style={{textAlign:"center"}}>Unbegrenzt Filme, Serien <br/>
+        <span style={{textAlign:"center"}}> und mehr</span></h1>
+        <h4 className='test'>Genießen Sie Netflix, wo immer Sie möchten. Jederzeit kündbar.</h4>
+      
+        <form className='form-email-form'>
+        <h5 className='form-title'>Sind Sie startklar? Geben Sie Ihre E-Mail-Adresse ein, um Ihre Mitgliedschaft zu beginnen oder zu <br />reaktivieren.</h5>
+        <div className='email-form-lockup'>
+          <input type="text" 
+          placeholder='E-Mail-Adresse'
+          id='input-form'  
+        />
+        <button className='letsgo-btn'>
+           Loslegen
+           <i class='bx bx-chevron-right'></i> 
+        </button>
+        </div>
+        </form>
+      </div>
+      
     </div>
+    
   )
 }
 

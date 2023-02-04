@@ -14,6 +14,11 @@
     
 }
 
+#background-cover{
+    width: 100%;
+    max-height: 50%;
+}
+
 #logo{
     position: absolute;
     top: 12%;
@@ -59,3 +64,65 @@
     font-size: 1.1rem !important;
     cursor: pointer;
 }
+
+.centered-content{
+    position: absolute;
+    color: #ffffff;
+    font-family:NetflixSansBold ;
+    font-size: 2rem;
+    top: 35%;
+    left: 15%;
+}
+
+.test{
+    font-weight: normal !important;
+    font-size: 1.8rem;
+    font-family: NetflixSansNormal !important;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.form-title{
+    font-weight: normal !important;
+    font-size: 1.8rem;
+    font-family: NetflixSansNormal !important;
+    text-align: center;
+    margin-top: 2%;
+}
+
+#input-form{
+    width: 40rem;
+    height: 4rem;
+    margin-top: 2%;
+    font-size: 1.3rem;
+    border: none;
+    
+}
+
+.email-form-lockup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.letsgo-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    align-items: center;
+    margin-top: 2%;
+    font-family: NetflixSansNormal;
+    font-size: 1.6rem;
+    color: #ffffff !important;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+}
+
+.letsgo-btn:hover{
+    background-color: #fa0a16;
+}
+
+
