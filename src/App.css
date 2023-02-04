@@ -1,10 +1,15 @@
 @font-face {
-  font-family:"NetflixSans";
+  font-family:"NetflixSansBold";
   src: url(../assets/NetflixSans_W_Bd.woff2);
+}
+
+@font-face {
+  font-family:"NetflixSansNormal";
+  src: url(../assets/NetflixSans_W_Rg.woff2);
 }
 
 *{ 
   box-sizing: border-box;
   margin: 0;
-  font-family: "NetflixSans";
+  /* font-family: "NetflixSansBold"; */
 }

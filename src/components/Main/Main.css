@@ -3,11 +3,13 @@
     height: 100rem;
     margin-bottom: 2%;
     background-color: black !important;
+    
 }
 
-#background-cover{
-    height: 50%;
+.background{
+    max-height: 50%;
     width: 100%;
+    position: relative;
     opacity: 0.5;
 }
 
