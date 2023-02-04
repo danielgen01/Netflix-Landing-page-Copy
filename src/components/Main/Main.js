@@ -11,7 +11,14 @@ const Main = () => {
       <img src='https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg' 
       id='logo'/>
       <div className='top-buttons'>
-        
+        <div className='lang-button'>
+          <h3>Deutsch</h3>
+          </div>
+        <div className='login-ctn'>
+          <button className='login-btn'>
+            Einloggen
+          </button>
+        </div>
         </div>
     </div>
   )
