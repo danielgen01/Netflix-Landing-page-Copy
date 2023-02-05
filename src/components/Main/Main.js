@@ -39,6 +39,16 @@ const Main = () => {
         </div>
         </form>
       </div>
+      <div className='tv-card-ctn'>
+        <h1>Auf Ihrem Fernseher</h1>
+        <h2>Streamen Sie mit Smart-TVs, Playstation,<br/>
+          Xbox, Chromecast, Apple TV, Blu-ray-Player <br />
+           u. v. m.</h2>
+
+           <img src='https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png'
+           id='tv-img' />
+      </div>
+      
       
     </div>
     
