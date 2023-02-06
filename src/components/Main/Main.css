@@ -98,8 +98,10 @@
     margin-top: 2%;
     font-size: 1.3rem;
     border: none;
+    text-align: left;
     
 }
+
 
 .email-form-lockup{
     display: flex;
@@ -347,6 +349,7 @@
 
      .top-buttons{
         font-size: 1.3rem;
+        margin-right: 5%;
      }
     
 

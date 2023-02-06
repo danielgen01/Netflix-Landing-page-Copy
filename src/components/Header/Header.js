@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className='Header'>
       <div className='new-batch'>
-        NEU!
+        NEU
       </div>
     <div className='banner-offer-text'>
       <span>Abos jetzt schon ab <span className='pricing'>4,99€</span></span>
