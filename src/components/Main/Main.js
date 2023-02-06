@@ -40,14 +40,53 @@ const Main = () => {
         </form>
       </div>
       <div className='tv-card-ctn'>
+        <div className='tv-card-text'>
         <h1>Auf Ihrem Fernseher</h1>
         <h2>Streamen Sie mit Smart-TVs, Playstation,<br/>
           Xbox, Chromecast, Apple TV, Blu-ray-Player <br />
            u. v. m.</h2>
+           </div>
 
            <img src='https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png'
            id='tv-img' />
       </div>
+
+      <div className='all-devices-card-ctn'>
+      <img src='https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png'
+           id='tv-2-img' />
+        <div className='all-devices-card-text'>
+        <h1>Auf allen Geräten</h1>
+        <h2>Sie können unbegrenzt Filme und Serien auf<br/>
+        Ihrem Smartphone, Tablet, Laptop und<br />
+        Fernseher ansehen – ohne Extragebühren.</h2>
+           </div>
+
+          
+      </div>
+
+      <div className='tv-card-ctn'>
+        <div className='tv-card-text'>
+        <h1>Profile für Kinder <br />erstellen</h1>
+        <h2>Schicken Sie Kinder auf Abenteuer mit ihren <br/>Lieblingsfiguren in einem speziell auf ihre<br/>
+         Bedürfnisse abgestimmten Kids-Bereich, der<br/>
+          ohne Aufpreis in Ihrer Mitgliedschaft <br/>inbegriffen ist.</h2>
+           </div>
+
+           <img src='https://occ-0-5595-3212.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVQJAYnFD-7T5xVFXMD0XzHsQzMajxuCxBBV140Poh4PomimUtpx_DanZ0w-VlpsfROeQEroObAYl3zsLjwKBkq5PZ8eL5Rlb2rE.png?r=244'
+           id='tv-img' />
+      </div>
+
+      <div className='download-and-watch-card-ctn'>
+      <img src='https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg'
+           id='tv-2-img' />
+        <div className='download-and-watch-text'>
+        <h1>Serien herunterladen<br/>und offline genießen</h1>
+        <h2>Bei sämtlichen Abos außer dem Basis-Abo<br/> mit Werbung inbegriffen.</h2>
+           </div>
+
+          
+      </div>
+      
       
       
     </div>
