@@ -1,6 +1,6 @@
 
 .Main{
-    height: 400rem;
+    height: 200rem;
     margin-bottom: 2%;
     background-color: black !important;
     
@@ -149,18 +149,30 @@
 }
 
 
-#tv-img{
+#tv-img {
     max-width: 100%;
-    height: 25rem;
+    height: 22rem;
+    
 }
+
+
+.tv1-card-video{
+   margin-top: -59%;
+   margin-left: 13%;
+   height: 50%;
+   width: 70%;
+   display: block;
+   object-fit: contain;
+
+}
+
 
 .all-devices-card-ctn{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    max-height: 45rem;
-    min-height: 30rem;
+    height: 40rem;
     width: 100%;
     color: #ffffff;
     border-bottom: 8px solid #222;
@@ -176,13 +188,22 @@
     text-align: left;
    
     
-    
 }
 
 #tv2-img{
     max-width: 100%;
-    height: 25rem;
+    height: 15rem;
 }
+
+.tv2-card-video{
+    margin-top: -70%;
+    margin-left: 17%;
+    height: 100%;
+    width: 62%;
+    display: block;
+    object-fit: contain;
+ 
+ }
 
 .profils-for-kids-card-ctn{
     display: flex;
@@ -226,7 +247,6 @@
 .download-and-watch-card-text{
     display: flex;
     flex-direction: column;
-    text-align: left;
-   
+    text-align: left;   
     
 }

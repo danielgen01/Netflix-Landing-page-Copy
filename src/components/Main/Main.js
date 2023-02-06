@@ -46,14 +46,31 @@ const Main = () => {
           Xbox, Chromecast, Apple TV, Blu-ray-Player <br />
            u. v. m.</h2>
            </div>
-
+            <div className='tv-and-animation-container'>
            <img src='https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png'
            id='tv-img' />
+          <div className='tv-card-video-animation'>
+            <video className='tv1-card-video' autoPlay playsInline muted loop>
+            <source src='https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v'
+            type='video/mp4'></source>
+            </video>
+            </div>
+          </div>
       </div>
 
       <div className='all-devices-card-ctn'>
+      <div className='tv2-and-animation-container'>
       <img src='https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png'
            id='tv-2-img' />
+           <div className='tv2-card-video-animation'>
+            <video className='tv2-card-video' autoPlay playsInline muted loop>
+              <source src='https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v'>
+
+              </source>
+            </video>
+           </div>
+           </div>
+
         <div className='all-devices-card-text'>
         <h1>Auf allen Geräten</h1>
         <h2>Sie können unbegrenzt Filme und Serien auf<br/>
