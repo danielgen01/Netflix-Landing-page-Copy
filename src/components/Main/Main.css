@@ -149,6 +149,22 @@
     
 }
 
+.tv-card-text h1 {
+    margin-bottom: 3%;
+}
+
+.all-devices-card-text h1{
+    margin-bottom: 3%;
+}
+
+.profils-for-kids-card-text h1{
+    margin-bottom: 3%;
+}
+
+.download-and-watch-text h1{
+    margin-bottom: 3%;
+}
+
 
 #tv-img {
     max-width: 100%;
@@ -267,9 +283,12 @@
    [class*="col-"] {
        width: 100%;
      }
+     *{
+        text-align: center;
+     }
   
      html{
-      font-size: 7px !important;
+      font-size: 9px !important;
       display: flex;
       width: 100%;
      }
@@ -326,6 +345,9 @@
     
      }
 
+     .top-buttons{
+        font-size: 1.3rem;
+     }
     
 
   
@@ -348,7 +370,9 @@
    .col-s-11 {width: 91.66%;}
    .col-s-12 {width: 100%;}
   
-
+   *{
+    text-align: center;
+ }
    html{
     font-size: 10px !important;
     display: flex;
