@@ -348,9 +348,17 @@
    .col-s-11 {width: 91.66%;}
    .col-s-12 {width: 100%;}
   
-   body{
-     font-size: 12px;
+
+   html{
+    font-size: 10px !important;
+    display: flex;
+    width: 100%;
    }
+
+   .centered-content{
+    top: 15%;
+    left: 0%;
+ }
 
   }
   
@@ -376,6 +384,13 @@
    body{
      font-size: 15px;
    }
-  
+   
+   .centered-content{
+    border-bottom: none !important;
+   }
+
+   #background-cover{
+    border-bottom: 8px solid #222;;
+   }
   }
   
