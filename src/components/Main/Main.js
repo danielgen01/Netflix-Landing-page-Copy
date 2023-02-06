@@ -39,6 +39,7 @@ const Main = () => {
         </div>
         </form>
       </div>
+
       <div className='tv-card-ctn'>
         <div className='tv-card-text'>
         <h1>Auf Ihrem Fernseher</h1>
@@ -81,8 +82,8 @@ const Main = () => {
           
       </div>
 
-      <div className='tv-card-ctn'>
-        <div className='tv-card-text'>
+      <div className='profils-for-kids-card-ctn'>
+        <div className='profils-for-kids-card-text'>
         <h1>Profile für Kinder <br />erstellen</h1>
         <h2>Schicken Sie Kinder auf Abenteuer mit ihren <br/>Lieblingsfiguren in einem speziell auf ihre<br/>
          Bedürfnisse abgestimmten Kids-Bereich, der<br/>

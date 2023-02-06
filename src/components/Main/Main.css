@@ -17,7 +17,7 @@
 #background-cover{
     width: 100%;
     max-height: 100%;
-    border-bottom: 8px solid #222;
+    
 }
 
 #logo{
@@ -73,6 +73,7 @@
     font-size: 2rem;
     top: 35%;
     left: 15%;
+    border-bottom: 8px solid #222;
 }
 
 .test{
@@ -274,12 +275,59 @@
      }
 
      .centered-content{
-        top: 20%;
+        top: 17%;
         left: 0%;
      }
 
+     .tv-card-ctn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100rem;
+     }
     
+     #tv-img{
+        width: 25rem;
+        height: 20rem;
+     }
+     .tv1-card-video{
+        width: 17rem;
+        
+     }
+
+     .all-devices-card-ctn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50rem;
+        gap: 25%;
+    
+     }
+
+     #tv-2-img{
+        width: 25rem;
+        height: 20rem;
+     }
      
+     .tv2-card-video{
+        width: 17rem;
+        
+     }
+
+     .profils-for-kids-card-ctn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50rem;
+        gap: 5%;
+    
+     }
+
+    
+
   
    }
   
@@ -303,7 +351,7 @@
    body{
      font-size: 12px;
    }
-  
+
   }
   
   

@@ -53,3 +53,17 @@
     display: flex;
     align-items: center;
 }
+
+
+@media only screen and (min-width: 300px) and (max-width: 599px){
+    /* For mobile phones: */
+   [class*="col-"] {
+       width: 100%;
+     }
+
+     html{
+        font-size: 15px !important;
+     }
+
+     
+    }
