@@ -107,6 +107,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     
 }
 
@@ -377,7 +378,7 @@
     text-align: center;
  }
    html{
-    font-size: 10px !important;
+    font-size: 9px !important;
     display: flex;
     width: 100%;
    }
@@ -394,6 +395,10 @@
  .tv1-card-video{
     width: 17.5rem;
     
+ }
+
+ #input-form{
+    width: 30vh;
  }
 
   }
